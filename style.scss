@@ -1,0 +1,96 @@
+
+body {
+    background: linear-gradient(180deg, #BBD2C5, #536976, #292E49);
+    background-size: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: .3em;
+    color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ tr {
+    vertical-align: top;
+  }
+
+  #header{
+     margin-left: 10px;
+      width: 50vw !important;
+      border: none;
+  }
+  .scroll-mobile {
+    display: none;
+  }
+  .post {
+    width: 70vw;
+    margin: 10vh;
+    padding: 20px;
+  }
+  .work {
+      height: 500px;
+      width: auto;
+  }
+  .caption {
+    font-size: 1.2em;
+    letter-spacing: .3em;
+    padding-top: 2.5vh;
+    text-align: right;
+  }
+  p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    
+  }
+
+  h2 {
+    font-size: 2.5em;
+    border-bottom: 3px solid white;
+    
+  }
+  button {
+      border: 3px solid #765358;
+      margin-top: 50px;
+      padding: 10px;
+      background-color: #765358;
+      color: white;
+      font-size: 20px;
+
+  }
+  button:hover, button:active {
+    border: 3px solid white;
+   
+
+}
+
+@media all and (max-width: 450px) {
+  .scroll-mobile {
+    display: block;
+    position: absolute;
+    bottom: 10vh;
+    right: 2vw;
+    font-style: italic;
+    font-size: 1.2em;
+    letter-spacing: .3em;
+
+  }
+
+    
+  .post {
+    width: 90vw;
+    margin: 5vw;
+  }
+
+  #header {
+    margin-right: 50vw;
+  }
+}
