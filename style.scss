@@ -87,10 +87,23 @@ body {
     
   .post {
     width: 90vw;
-    margin: 5vw;
+    // margin: 5vw;
+    padding: 10vw;
   }
 
-  #header {
+  table {
+    border-collapse: separate;
+  }
+
+  #last {
+    margin-left: 100vw;
+  }
+
+  #header, #cv, #contact {
     margin-right: 50vw;
+  }
+
+  #cv, #contact {
+    margin-left: 100vw;
   }
 }
